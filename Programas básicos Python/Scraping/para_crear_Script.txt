@@ -1,0 +1,10 @@
+Links = //div[@class="container"]/div/div/div/div/div/div/h2/a/@href
+Link2 = //h2/a/@href
+Título = //h2/span/text()
+Resumen = //div[@class="lead"]/p/text()
+Detalle de Noticia = //div[@class="html-content"]/p/text()
+
+
+Por alguna razón se debe de sustituir el h2 por text-fill, voy a investigar el motivo de ésto.
+
+
